@@ -1,21 +1,15 @@
+
 {
-  "name": "swagger-api",
+  "name": "your-app-name",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "satart": "nodemon app.js",
-    "dev": "node app"
+    "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "bcrypt": "^5.1.1",
-    "express": "^4.21.1",
-    "jsonwebtoken": "^9.0.2",
-    "nodemon": "^3.1.7",
-    "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.1"
-  }
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "swagger-jsdoc": "^6.0.0",
+    "swagger-ui-express": "^4.1.6"
+  } 
 }
